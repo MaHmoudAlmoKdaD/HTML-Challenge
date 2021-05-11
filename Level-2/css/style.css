@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    list-style-type: none;
+}
+.color{
+    color: white;
+}
+.background{
+    background-color: rgb(55, 141, 156);
+}
+
+li{
+    padding: 12px 12px;
+}
+
+.img-footer{
+    width:350px;
+    height: 150px;
+}

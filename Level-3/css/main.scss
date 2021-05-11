@@ -1,0 +1,68 @@
+@import 'function', 'variables';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: $main-text-color;
+}
+body{
+    background-color: $background-color;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.header .image{
+    margin-top: 15px;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: $nav-text-color;   
+}
+
+.nav{
+    background-color: $background-color-nav
+}
+.nav .nav-list{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+        color: $nav-text-color;
+        list-style-type: none;       
+    }
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    .main-menu{
+        li{
+            list-style-type: square;
+            padding-top: 5px;
+            text-decoration: underline;
+        }
+    }
+    .container-block{
+        .paragrph{
+            margin-left: -15px;
+        }
+    }
+    .right-side-down{
+        display: flex;
+        .other-services{
+            border-left: 2px solid rgb(77, 76, 76);
+        
+        }
+        button{
+            width:7rem;
+            height: 2rem;
+            background-color: #3f3f3f;
+        }
+    }
+}
+

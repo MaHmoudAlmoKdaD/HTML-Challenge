@@ -1,0 +1,21 @@
+$steps:(1, 2, 3);
+@each $step in $steps {
+    .m-#{$step}{
+        margin: #{$step*10}px;
+    }
+    .my-#{$step}{
+        margin: #{$step*10}px 0;
+    }
+    .mx-#{$step}{
+        margin: 0 #{$step*10}px;
+    }
+    .p-#{$step}{
+        padding: #{$step*10}px;
+    }
+    .py-#{$step}{
+        padding: #{$step*10}px 0;
+    }
+    .px-#{$step}{
+        padding: 0 #{$step*10}px;
+    }
+}
