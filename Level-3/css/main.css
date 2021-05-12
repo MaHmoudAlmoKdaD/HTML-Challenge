@@ -150,4 +150,12 @@ a {
   height: 2rem;
   background-color: #3f3f3f;
 }
+footer{
+    P{
+        border-top: 2px solid;
+        padding: 20px 0;
+        text-align: center;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */
